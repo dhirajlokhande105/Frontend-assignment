@@ -1,0 +1,30 @@
+p{
+    text-align: center;
+}
+
+.graph-container{
+    margin: 0px;
+}
+
+.chart{
+    height: 50vh;
+}
+
+@media screen and (max-width: 768px) {
+    .chart{
+        height: 30vh;
+        width: 70vw;
+    }
+    
+}
+@media screen and (max-width: 978px) {
+    .chart{
+        height: 30vh;
+        width: 100%;
+    }
+    
+}
+
+
+
+
